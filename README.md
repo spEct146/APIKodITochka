@@ -12,7 +12,11 @@
  - Оценка созвона
 
 Endpoits:
+
 {
+
   "audio": String
+  
   "callScore": String
+  
 }
