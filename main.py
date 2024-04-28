@@ -18,7 +18,7 @@ with open(f"0002.txt", 'r', encoding="utf8") as file:
 textr = text.replace('n', ' ')
 result = ask_gpt(textr)
 phones = {
-    1: {"Audio": f"{textr}", "Recent": f"{result}"}
+    1: {"audio": f"{textr}", "callScore": f"{result}"}
 }
 
 class Main(Resource):
